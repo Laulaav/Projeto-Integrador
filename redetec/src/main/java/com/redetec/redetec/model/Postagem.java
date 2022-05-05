@@ -34,13 +34,21 @@ public class Postagem {
 	private String foto;
 	
 	private int like;
-	
+
 	@UpdateTimestamp
 	private LocalDateTime data;
 	
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Categoria categoria;
+	
+	public int getLike() {
+		return like;
+	}
+
+	public void setLike(int like) {
+		this.like = like;
+	}
 
 	public long getId() {
 		return id;
