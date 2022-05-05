@@ -38,7 +38,7 @@ Nesse projeto, estamos criando uma plataforma para ajudar pessoas iniciantes na 
 - ``Automação de testes com Postman``
 - ``Tudo isso com a alta produtividade do Spring Boot e Spring Data JPA``
 
-## Quem são os colaboradores do projeto?
+## Quem são as colaboradoras do projeto?
 
 #### Vem dar um Oi pra gente no LinkedIn:
 
