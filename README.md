@@ -17,7 +17,7 @@
 Nesse projeto, estamos criando uma plataforma para ajudar pessoas iniciantes na programação.
 
 ## Funcionalidades do projeto
-<img align="center" alt="build" height="30" width="40" src="https://cdn-icons.flaticon.com/png/512/4873/premium/4873868.png?token=exp=1651785087~hmac=344138c1c5be6d79291548c119f7bc7b">Em desenvlvimento.
+<img align="center" alt="build" height="30" width="40" src="https://cdn-icons.flaticon.com/png/512/4873/premium/4873868.png?token=exp=1651785087~hmac=344138c1c5be6d79291548c119f7bc7b">Em desenvolvimento.
 
 ## Técnicas e tecnologias utilizadas
 
