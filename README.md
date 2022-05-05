@@ -24,7 +24,7 @@ Nesse projeto, estamos criando uma plataforma para ajudar pessoas iniciantes na 
 - ``Java 17``
 - ``SpringToolSuite``
 - ``Paradigma de orientação a objetos``
-- ``O modelo REST``
+- ``Web Services com o modelo REST e Spring``
 - ``Protocolo HTTP``
 - ``Os principais verbos HTTP``
 - ``Representações JSON``
@@ -34,8 +34,9 @@ Nesse projeto, estamos criando uma plataforma para ajudar pessoas iniciantes na 
 - ``Manipulação de exceções``
 - ``Cache``
 - ``Autenticação básica com Spring Security``
-- ``Criação de cliente REST com Java e JavaScript``
+- ``Criação de cliente REST com Java``
 - ``Automação de testes com Postman``
+- ``Tudo isso com a alta produtividade do Spring Boot e Spring Data JPA``
 
 ## Quem são os colaboradores do projeto?
 
