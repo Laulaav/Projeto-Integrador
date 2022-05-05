@@ -6,7 +6,7 @@
 </p>
 
 <p align = "center">
-	Projeto Sistema Escolar desenvolvido para rodar no console Java como atividade de conclusão do módulo 01 do <a href="https://brazil.generation.org/">Bootcamp Generation Java Recife</a>.
+	Projeto RedeTec desenvolvido para rodar na web como atividade de conclusão <a href="https://brazil.generation.org/">Bootcamp Generation Java Recife</a>.
 </p>
 
 <p align="center">
