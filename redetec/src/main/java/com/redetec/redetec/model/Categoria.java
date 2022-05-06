@@ -29,4 +29,34 @@ public class Categoria {
 	@JsonIgnoreProperties("categoria")
 	private List<Postagem> postagem;
 
+
+	public long getId() {
+		return id;
+	}
+
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+
+	public String getTema() {
+		return tema;
+	}
+
+
+	public void setTema(String tema) {
+		this.tema = tema;
+	}
+
+
+	public List<Postagem> getPostagem() {
+		return postagem;
+	}
+
+
+	public void setPostagem(List<Postagem> postagem) {
+		this.postagem = postagem;
+	}
+	
 }
