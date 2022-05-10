@@ -1,3 +1,10 @@
+<div align="center">
+ 
+<img src="https://https://media.discordapp.net/attachments/958829964264894554/973663771585302558/unknown.png" alt="page" width="150px">
+<hr>
+  
+A nossa aplicação está atrelada com a ODS 10 - Redução das desigualdades e sendo notório o nível de desigualdade socioeconômico no brasil, decidimos criar uma plataforma que dará suporte a uma horta social. Temos como objetivo gerar um maior alcance, agregando mais clientes e mais engajamento. 
+
 <h1 align="center">PROJETO INTEGRADOR</h1>
 <h2 align="center">GENERATION BRASIL</h2>
 
