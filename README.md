@@ -1,6 +1,6 @@
 <div align="center">
  
-<img src="https://https://media.discordapp.net/attachments/958829964264894554/973663771585302558/unknown.png" alt="page" width="150px">
+<img src="https://user-images.githubusercontent.com/93311817/167717297-af6bef16-ab5a-4ad5-ae5b-11bd163b507a.png" alt="page" width="220px">
 <hr>
   
 A nossa aplicação está atrelada com a ODS 10 - Redução das desigualdades e sendo notório o nível de desigualdade socioeconômico no brasil, decidimos criar uma plataforma que dará suporte a uma horta social. Temos como objetivo gerar um maior alcance, agregando mais clientes e mais engajamento. 
@@ -26,25 +26,28 @@ Nesse projeto, estamos criando uma plataforma para ajudar pessoas iniciantes na 
 ## Funcionalidades do projeto
 <img align="center" alt="build" height="30" width="40" src="https://cdn-icons.flaticon.com/png/512/4873/premium/4873868.png?token=exp=1651785087~hmac=344138c1c5be6d79291548c119f7bc7b">Em desenvolvimento.
 
-## Técnicas e tecnologias utilizadas
-
-- ``Java 17``
-- ``SpringToolSuite``
-- ``Paradigma de orientação a objetos``
-- ``Web Services com o modelo REST e Spring``
-- ``Protocolo HTTP``
-- ``Os principais verbos HTTP``
-- ``Representações JSON``
-- ``Negociação de conteúdos``
-- ``Modelagem de APIs``
-- ``Validação de entrada``
-- ``Manipulação de exceções``
-- ``Cache``
-- ``Autenticação básica com Spring Security``
-- ``Criação de cliente REST com Java``
-- ``Automação de testes com Postman``
-- ``Tudo isso com a alta produtividade do Spring Boot e Spring Data JPA``
-
+<h2>Tecnologias Utilizadas</h2>
+Esse projeto foi desenvolvido utilizando:
+<ul>
+<li>Java</li>
+<li>Spring Boot</li>
+<li>Eclipse</a></li>
+<li>MySQL</li>
+<li>Angular</li>
+<li>Bootstrap</a></li>
+<li>SpringToolSuite</a></li>
+<li>Representações JSON/a></li>
+<li>Negociação de conteúdos</a></li>
+<li>Modelagem de APIs</a></li>
+<li>Validação de Entrada</a></li>
+<li>manipulação de exceções</a></li>
+<li>Cache</a></li>
+<li>Protocolo HTTP</a></li>
+<li>Autenticação básica com Spring Security</a></li>
+<li>Criação de cliente REST com Java</a></li>
+<li>Criação de cliente REST com Postman</a></li> 
+  
+ 
 ## Quem são as colaboradoras do projeto?
 
 #### Vem dar um Oi pra gente no LinkedIn:
