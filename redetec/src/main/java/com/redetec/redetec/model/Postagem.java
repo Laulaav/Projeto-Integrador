@@ -21,7 +21,7 @@ public class Postagem {
 	
 	@Id 
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	@NotBlank
 	@Size (min = 3, max = 255)
@@ -33,7 +33,7 @@ public class Postagem {
 	
 	private String foto;
 	
-	private int like;
+	private Integer curtida;
 
 	@UpdateTimestamp
 	private LocalDateTime data;
@@ -42,19 +42,15 @@ public class Postagem {
 	@JsonIgnoreProperties("postagem")
 	private Categoria categoria;
 	
-	public int getLike() {
-		return like;
-	}
-
-	public void setLike(int like) {
-		this.like = like;
-	}
-
-	public long getId() {
+	@ManyToOne
+	@JsonIgnoreProperties("postagem")
+	private Usuario usuario;
+	
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -82,6 +78,14 @@ public class Postagem {
 		this.foto = foto;
 	}
 
+	public Integer getCurtida() {
+		return curtida;
+	}
+
+	public void setCurtida(Integer curtida) {
+		this.curtida = curtida;
+	}
+
 	public LocalDateTime getData() {
 		return data;
 	}
@@ -98,4 +102,11 @@ public class Postagem {
 		this.categoria = categoria;
 	}
 
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
 }
