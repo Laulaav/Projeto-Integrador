@@ -58,4 +58,4 @@ Esse projeto foi desenvolvido utilizando:
 - Joara Gouveia [![LinkedIn Badge](https://img.shields.io/badge/joara-gouveia?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joara-p-de-gouveia-aa4038168/)
 - Rute Costa [![LinkedIn Badge](https://img.shields.io/badge/rute-costa?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rutehelencosta/)
 - Eveline Síntia [![LinkedIn Badge](https://img.shields.io/badge/eveline-sintia?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eveline-s%C3%ADntia/)
-- Olga Silva [![LinkedIn Badge](https://img.shields.io/badge/olga-silva?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olga-beatriz-silva-283060144/)
+- Olga Beatriz [![LinkedIn Badge](https://img.shields.io/badge/olga-silva?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olga-beatriz-silva-283060144/)
