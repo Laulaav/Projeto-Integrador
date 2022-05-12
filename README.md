@@ -1,6 +1,6 @@
 <div align="center">
  
-<img src="https://user-images.githubusercontent.com/93311817/167717297-af6bef16-ab5a-4ad5-ae5b-11bd163b507a.png" alt="page" width="220px">
+<img src="https://user-images.githubusercontent.com/93311817/167717297-af6bef16-ab5a-4ad5-ae5b-11bd163b507a.png" alt="page" width="230px">
 <hr>
   
 A nossa aplicação está atrelada com a ODS 10 - Redução das desigualdades e sendo notório o nível de desigualdade socioeconômico no brasil, decidimos criar uma plataforma que dará suporte a iniciantes no mundo da Programação. Temos como objetivo gerar um maior alcance e dar a opção desses alunos acessarem a um roadmap (passo a passo) de como começar os estudos, quais assuntos aprender, onde aprender e  terem a oportunidade de serem mentorados.
