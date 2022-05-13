@@ -2,7 +2,7 @@ package com.redetec.redetec.model;
 
 public class UsuarioLogin {
 	
-    private Long id;
+    private long id;
 	
 	private String nome; 
 	
@@ -14,11 +14,11 @@ public class UsuarioLogin {
 	
 	private String token;
 
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 

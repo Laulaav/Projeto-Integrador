@@ -17,12 +17,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 @Entity
-@Table(name="usuario")
+@Table(name="tb_usuario")
 public class Usuario {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+	private long id;
 	
 	@NotBlank
 	@Size(min=2, max=100)
@@ -45,11 +45,11 @@ public class Usuario {
 	@JsonIgnoreProperties("usuario")
 	private List<Postagem> postagem;
 
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 

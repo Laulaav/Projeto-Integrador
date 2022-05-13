@@ -19,7 +19,7 @@ public class Categoria {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private long id;
 	
 	@NotBlank
 	private String tema;
@@ -30,12 +30,12 @@ public class Categoria {
 	private List<Postagem> postagem;
 
 
-	public Long getId() {
+	public long getId() {
 		return id;
 	}
 
 
-	public void setId(Long id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
