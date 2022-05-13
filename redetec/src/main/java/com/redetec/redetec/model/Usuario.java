@@ -11,7 +11,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -25,20 +24,22 @@ public class Usuario {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotNull(message="The name is required")
-	private String name;
+	@NotBlank
+	@Size(min=2, max=100)
+	private String nome;
 	
-	@NotNull(message="The user is required")
-	@Email(message = "O atributo Usuário deve ser um email válido!")
-	private String user;
+	@NotBlank
+	@Email(message = "O atributo usuário deve ser um email válido!")
+	@Size(min=2, max=100)
+	private String usuario;
 	
-	@NotBlank(message="A password is required")
-	@Size(min = 8, message = "A Senha deve ter no mínimo 8 caracteres")
-	private String password;
+	@NotBlank
+	@Size(min = 8, max = 100, message = "A Senha deve ter no mínimo 8 caracteres")
+	private String senha;
 	
-	@Size(max = 5000, 
-	message = "O link da foto não pode ser maior do que 5000 caracteres")
-	private String photo;
+	private String foto;
+	
+	private String tipo;
 
 	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("usuario")
@@ -52,43 +53,44 @@ public class Usuario {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public String getUser() {
-		return user;
+	public String getUsuario() {
+		return usuario;
 	}
 
-	public void setUser(String user) {
-		this.user = user;
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getSenha() {
+		return senha;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setSenha(String senha) {
+		this.senha = senha;
 	}
 
-	public String getPhoto() {
-		return photo;
+	public String getFoto() {
+		return foto;
 	}
 
-	public void setPhoto(String photo) {
-		this.photo = photo;
+	public void setFoto(String foto) {
+		this.foto = foto;
 	}
 
-	public List<Postagem> getPostagem() {
-		return postagem;
+	public String getTipo() {
+		return tipo;
 	}
 
-	public void setPostagem(List<Postagem> postagem) {
-		this.postagem = postagem;
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
+
 }
