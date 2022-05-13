@@ -9,5 +9,5 @@ import com.redetec.redetec.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
-	public Optional<Usuario> findByUsuario(String user);
+	public Optional<Usuario> findByUsuario(String usuario);
 }
